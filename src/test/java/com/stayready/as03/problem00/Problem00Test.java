@@ -30,6 +30,7 @@ public class Problem00Test {
                 "that (Seen 5)\n" +
                 "is (Seen 5)\n" +
                 "not (Seen 2)\n"+
+                "it (Seen 2)\n"+
                 "wutang (Seen 1)";
         String actual = solution.countUniqueWords(input);
         Assert.assertEquals(expected, actual);
