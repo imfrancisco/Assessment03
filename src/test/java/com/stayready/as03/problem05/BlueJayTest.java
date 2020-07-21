@@ -24,4 +24,16 @@ public class BlueJayTest {
 
         Assert.assertEquals(expected, actual);
     }
+
+    // I created this test
+    @Test
+    public void speedTest(){
+        Bird aBlueJay = new BlueJay();
+        int expected = 13;
+
+        aBlueJay.setSpeed(13);
+        int actual = aBlueJay.getSpeed();
+
+        Assert.assertEquals(expected,actual);
+    }
 }

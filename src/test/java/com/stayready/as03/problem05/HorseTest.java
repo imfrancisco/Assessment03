@@ -17,11 +17,27 @@ public class HorseTest {
 
     @Test
     public void testColor() {
-        Animal horse = (Animal)(Object)new Horse();
+        Animal horse = (Animal)(Horse)new Horse();
         String expected = "brown";
+
 
         String actual = horse.color();
 
         Assert.assertEquals(expected, actual);
+    }
+
+    // I created this test
+    @Test
+    public void getSpeedTest(){
+        // Given
+        Animal horse = (Animal)(Horse) new Horse();
+        int expected = 40;
+
+
+        // When
+        int actual = horse.getSpeed();
+
+        // Then
+        Assert.assertEquals(expected,actual);
     }
 }

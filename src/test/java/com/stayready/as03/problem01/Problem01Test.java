@@ -26,4 +26,11 @@ public class Problem01Test {
         String actual = weird.isThisWeird(24);
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void weirdSolutionTest2(){
+        String expected = "Weird";
+        String actual = weird.isThisWeird(20);
+        Assert.assertEquals(expected, actual);
+    }
 }

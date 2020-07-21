@@ -1,4 +1,4 @@
-# Interface & Abstract
+Interface & Abstract
 
 ### Section 1: The Animals
 Create the following animals:
